@@ -1,5 +1,5 @@
 {
-  "name": "imdb-top-100",
+  "name": "imdb-top-250",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "fetch-movies": "node --env-file=.env.local --experimental-strip-types scripts/fetch-movies.ts"
   },
   "dependencies": {
     "react": "^19.2.8",
