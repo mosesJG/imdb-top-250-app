@@ -2,6 +2,8 @@
   --text: #4b4553;
   --text-h: #08060d;
   --bg: #fff;
+  --surface: #f6f5f8;
+  --border: #e5e4e7;
   --accent: #f5c518;
 
   font: 16px/1.5 system-ui, 'Segoe UI', Roboto, sans-serif;
@@ -16,6 +18,8 @@
     --text: #9ca3af;
     --text-h: #f3f4f6;
     --bg: #16171d;
+    --surface: #1f2028;
+    --border: #2e303a;
   }
 }
 
